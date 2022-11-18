@@ -1,9 +1,9 @@
 /*****To handle all the js entry point */
 const router = async () => {
     const routers = [
-        { path: "/", view: () => console.log("Dashboard view") },
-        { path: "/posts", view: () => console.log("You mean post") },
-        { path: "/settings", view: () => console.log("You mean settings") }
+        { path: "/", view: () => console.log("Dashboard View") },
+        { path: "/posts", view: () => console.log("Post View") },
+        { path: "/settings", view: () => console.log("Settings View") }
 
     ]
 
